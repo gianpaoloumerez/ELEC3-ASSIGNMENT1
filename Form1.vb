@@ -29,11 +29,28 @@ Public Class Form1
         text.WriteLine(address)
         text.Close()
 
-        MessageBox.Show("Text File 'output_file.txt' Created on " + path)
+        MessageBox.Show("Text File 'output_file.txt' Created on \n" + path)
 
     End Sub
 
     Private Sub FolderBrowserDialog1_HelpRequest(sender As Object, e As EventArgs) Handles FolderBrowserDialog1.HelpRequest
 
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        If (FolderBrowserDialog1.ShowDialog() = DialogResult.OK) Then
+            path = FolderBrowserDialog1.SelectedPath
+        End If
+        Dim name As String = "<name> " + TextBox1.Text + " </name>"
+        Dim age As String = "<age> " + TextBox2.Text + " </age>"
+        Dim address As String = "<address> " + TextBox3.Text + " </address>"
+        Dim text As System.IO.StreamWriter = My.Computer.FileSystem.OpenTextFileWriter(path + "\output_file.xml", True)
+
+        text.WriteLine(name)
+        text.WriteLine(age)
+        text.WriteLine(address)
+        text.Close()
+
+        MessageBox.Show("XML File 'output_file.xml' Created on \n" + path)
     End Sub
 End Class
