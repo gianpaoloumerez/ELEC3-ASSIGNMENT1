@@ -53,4 +53,23 @@ Public Class Form1
 
         MessageBox.Show("XML File 'output_file.xml' Created on \n" + path)
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        If (FolderBrowserDialog1.ShowDialog() = DialogResult.OK) Then
+            path = FolderBrowserDialog1.SelectedPath
+        End If
+        Dim name As String = " ""Name:"" " + TextBox1.Text + ","
+        Dim age As String = " ""Age:""" + TextBox2.Text + ","
+        Dim address As String = " "" Address:""" + TextBox3.Text + ","
+        Dim text As System.IO.StreamWriter = My.Computer.FileSystem.OpenTextFileWriter(path + "\output_file.json", True)
+
+        text.WriteLine("{")
+        text.WriteLine(name)
+        text.WriteLine(age)
+        text.WriteLine(address)
+        text.WriteLine("}")
+        text.Close()
+
+        MessageBox.Show("JSON File 'output_file.json' Created on \n" + path)
+    End Sub
 End Class
