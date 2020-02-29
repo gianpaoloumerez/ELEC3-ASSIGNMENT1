@@ -29,6 +29,8 @@ Public Class Form1
         text.WriteLine(address)
         text.Close()
 
+        MessageBox.Show("Text File 'output_file.txt' Created on " + path)
+
     End Sub
 
     Private Sub FolderBrowserDialog1_HelpRequest(sender As Object, e As EventArgs) Handles FolderBrowserDialog1.HelpRequest
