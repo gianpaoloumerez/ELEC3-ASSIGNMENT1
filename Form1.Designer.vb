@@ -31,6 +31,7 @@ Partial Class Form1
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
         Me.SuspendLayout()
         '
         'Label1
@@ -127,6 +128,9 @@ Partial Class Form1
         Me.Button3.Text = "JSON"
         Me.Button3.UseVisualStyleBackColor = False
         '
+        'FolderBrowserDialog1
+        '
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -159,4 +163,5 @@ Partial Class Form1
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
+    Friend WithEvents FolderBrowserDialog1 As FolderBrowserDialog
 End Class

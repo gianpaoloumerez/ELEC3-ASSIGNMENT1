@@ -1,0 +1,11 @@
+C:\Users\admin\source\repos\TXT-XML-JSON-FILE\TXT-XML-JSON-FILE\bin\Debug\TXT-XML-JSON-FILE.exe.config
+C:\Users\admin\source\repos\TXT-XML-JSON-FILE\TXT-XML-JSON-FILE\bin\Debug\TXT-XML-JSON-FILE.exe
+C:\Users\admin\source\repos\TXT-XML-JSON-FILE\TXT-XML-JSON-FILE\bin\Debug\TXT-XML-JSON-FILE.pdb
+C:\Users\admin\source\repos\TXT-XML-JSON-FILE\TXT-XML-JSON-FILE\bin\Debug\TXT-XML-JSON-FILE.xml
+C:\Users\admin\source\repos\TXT-XML-JSON-FILE\TXT-XML-JSON-FILE\obj\Debug\TXT-XML-JSON-FILE.vbprojAssemblyReference.cache
+C:\Users\admin\source\repos\TXT-XML-JSON-FILE\TXT-XML-JSON-FILE\obj\Debug\TXT_XML_JSON_FILE.Form1.resources
+C:\Users\admin\source\repos\TXT-XML-JSON-FILE\TXT-XML-JSON-FILE\obj\Debug\TXT_XML_JSON_FILE.Resources.resources
+C:\Users\admin\source\repos\TXT-XML-JSON-FILE\TXT-XML-JSON-FILE\obj\Debug\TXT-XML-JSON-FILE.vbproj.GenerateResource.cache
+C:\Users\admin\source\repos\TXT-XML-JSON-FILE\TXT-XML-JSON-FILE\obj\Debug\TXT-XML-JSON-FILE.exe
+C:\Users\admin\source\repos\TXT-XML-JSON-FILE\TXT-XML-JSON-FILE\obj\Debug\TXT-XML-JSON-FILE.xml
+C:\Users\admin\source\repos\TXT-XML-JSON-FILE\TXT-XML-JSON-FILE\obj\Debug\TXT-XML-JSON-FILE.pdb
